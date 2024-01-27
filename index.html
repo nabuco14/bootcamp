@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id ="contenedorPrincipal">
+        <section id ="formulario">
+            <header>
+                <h2>Formulario</h2>              
+            </header>
+            <form>
+                <div>
+                    <p>Nombre</p>
+                    <input id ="nombre" class="entrada" type="text" placeholder="ingrese nombre">
+                </div>
+                <div>
+                    <p>Identificacion</p>
+                    <input id ="identificacion" class="entrada" type="text" placeholder="ingrese identificacion">
+                </div>
+                <div>
+                    <p>Sexo</p>
+                    <select  class="entrada" id ="sexo" >
+                        <option value="-1" selected>Seleccionar </option>
+                        <option value="masculino" selected>Masculino </option>
+                        <option value="femenino" selected>Femenino</option>
+                    </select>
+                </div>
+                <div>
+                    <p> Fecha de nacimiento</p>
+                    <input id="fechaNacimiento" class="entrada" type="date" placeholder="ingrese fecha de nacimiento"> 
+                <div>
+                    <p> Fecha ingreso</p>
+                    <input id="fechaIngreso" class="entrada" type="date" placeholder="ingrese fecha de ingreso">
+                </div>
+                <p> Notas</p>
+                    <input id="notas" class="entrada" type="text" placeholder="ingrese notas"> 
+                </div>
+            </form>
+            <div>
+                <button onclick ="registrar()" class="entrada">Registrar </button>
+            </div>
+        </section>
+    <script src="script.js"> </script>
+    </main>
+    
+</body>
+</html>
